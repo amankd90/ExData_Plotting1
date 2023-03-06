@@ -34,3 +34,5 @@ png(filename = "/Users/amani/Plots/plot1.png",width = 480, height = 480)
 hist(data$Global_active_power, col="red", xlab="Global Active Power (kilowatts)", ylab="Frequency", main="Global Active Power")
 axis(side=1,at=seq(0,6,2),labels=seq(0,6,2))
 dev.off
+
+#Disclaimer: I used help from google, StackOverflow, and MaiseB on github in creating these plots.
